@@ -1,0 +1,22 @@
+/* Element Selector */
+body{
+    background-color: rgb(231, 193, 147);
+}
+/* Class Selector */
+.text.judul{
+    background-color: darkkhaki;
+}
+.col{
+    width: 25%;
+    float: left;
+}     
+.img-responsive{
+    width: 100%;
+}
+.circle{
+    border-radius: 50%;
+}
+
+.rounded{
+    border-radius: 20px;
+}
