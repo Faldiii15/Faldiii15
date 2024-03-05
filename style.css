@@ -1,8 +1,43 @@
+*{
+    box-sizing: border-box;
+}
 /* Element Selector */
 body{
     background-color: rgb(231, 193, 147);
+    font-family: calibri;
+    color: blanchedalmond;
 }
+
+
+/* Media Query */
+/* Tablet : layout yang di tampilkan 2 kolom */
+@media screen and (min-width: 600px){
+    body{
+        background-color:cornflowerblue;
+    }
+    .col-sm-6{
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Dekstop : Layout yang di tampilkan 4 kolom */
+@media screen and (min-width: 992px){
+    body{
+        background-color:brown;
+    }
+    .col-sm-6{
+        width: 50%;
+        float: left;
+    }
+}
+
+
 /* Class Selector */
+
+.text-primary{
+    color:crimson;
+}
 .text.judul{
     background-color: darkkhaki;
 }
@@ -12,6 +47,7 @@ body{
 }     
 .img-responsive{
     width: 100%;
+    max-height: 500px;
 }
 .circle{
     border-radius: 50%;
@@ -19,4 +55,13 @@ body{
 
 .rounded{
     border-radius: 20px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.col2{
+    width: 50%;
+    float: left;
 }
