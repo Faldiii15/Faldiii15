@@ -18,16 +18,18 @@ body{
     .col-sm-6{
         width: 50%;
         float: left;
-    }
+}
+
 }
 
 /* Dekstop : Layout yang di tampilkan 4 kolom */
 @media screen and (min-width: 992px){
     body{
         background-color:brown;
+    
     }
-    .col-sm-6{
-        width: 50%;
+    .col-lg-6{
+        width: 25%;
         float: left;
     }
 }
